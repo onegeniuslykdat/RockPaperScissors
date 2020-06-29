@@ -7,7 +7,7 @@ relative_links:
   collections: true
 include:
 
-  - INDEX.html
+  - INDEX.md
   - README.md
   - LICENSE.md
   - COPYING.md
