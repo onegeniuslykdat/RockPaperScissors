@@ -4,7 +4,7 @@ A Simple game of Rock, Paper, Scissors.
 
 Please do not mind the CSS... 👍😁
 
-'''
+''' HTML
 <script src="RPS.js"></script>
 
 <div class="Test">Simple Rock Paper Scisors Game</div>
