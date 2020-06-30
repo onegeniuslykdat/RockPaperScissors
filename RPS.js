@@ -12,30 +12,30 @@ function Winner(){
     {
         case "Rock":
                 if(c == "Rock"){
-            alert("Draw");
+            alert("Computer plays: " +c + "Draw");
                 }
                 else if (c == "Scissors"){
-             alert("You win")
+             alert("Computer plays: " +c + "You win")
                 }
-                else {alert("You lose")}
+                else {alert("Computer plays: " +c + "You lose")}
             break;
         case "Scissors":
                 if(c == "Scissors"){
-            alert("Draw");
+            alert("Computer plays: " +c + "Draw");
                 }
                 else if (c == "Paper"){
-             alert("You win")
+             alert("Computer plays: " +c + "You win")
                 }
-                else {alert("You lose")}
+                else {alert("Computer plays: " +c + "You lose")}
             break;
         case "Paper":
                 if(c == "Paper"){
-            alert("Draw");
+            alert("Computer plays: " +c + "Draw");
                 }
                 else if (c == "Rock"){
-             alert("You win")
+             alert("Computer plays: " +c + "You win")
                 }
-                else {alert("You lose")}
+                else {alert("Computer plays: " +c + "You lose")}
             break;
         default:
             alert();
