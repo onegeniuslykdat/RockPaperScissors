@@ -7,7 +7,7 @@ Please do not mind the CSS... 👍😁
 
 <script src="RPS.js"></script>
 
-<div class="Test">Simple Rock Paper Scisors Game</div>
+<div class="Test">Can you beat the computer?</div>
 
 <select id="Options">
    <option>Rock</option>
