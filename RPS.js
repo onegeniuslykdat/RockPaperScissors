@@ -5,37 +5,40 @@ function computerPlay(){
     return turn[t];
 }
 
-function Winner(){
-     let p = document.querySelector("#Options").value;
+function Winner(event){
+     let p = event.target.id;
      let c = computerPlay();
+     //let c2 = document.querySelector('button#'+c);
+     document.querySelector("#ComputerChoice").innerText = c;
+
     switch(p)
     {
         case "Rock":
                 if(c == "Rock"){
-            alert("Computer plays: " +c + " .Game result: Draw");
+            alert("Draw");
                 }
                 else if (c == "Scissors"){
-             alert("Computer plays: " +c + " .Game result: You win")
+             alert("You win")
                 }
-                else {alert("Computer plays: " +c + " .Game result: You lose")}
+                else {alert("You lose")}
             break;
         case "Scissors":
                 if(c == "Scissors"){
-            alert("Computer plays: " +c + " .Game result: Draw");
+            alert("Draw");
                 }
                 else if (c == "Paper"){
-             alert("Computer plays: " +c + " .Game result: You win")
+             alert("You win")
                 }
-                else {alert("Computer plays: " +c + " .Game result: You lose")}
+                else {alert("You lose")}
             break;
         case "Paper":
                 if(c == "Paper"){
-            alert("Computer plays: " +c + " .Game result: Draw");
+            alert("Draw");
                 }
                 else if (c == "Rock"){
-             alert("Computer plays: " +c + " .Game result: You win")
+             alert("You win")
                 }
-                else {alert("Computer plays: " +c + " .Game result: You lose")}
+                else {alert("You lose")}
             break;
         default:
             alert();
