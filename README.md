@@ -9,10 +9,6 @@ Please do not mind the CSS... 👍😁
 
 <div class="Test">Can you beat the computer?</div>
 
-<!DOCTYPE HTML>
-
-<script src="RPS.js"></script>
-
 <div>Click on your choice</div>
 
 <div>
