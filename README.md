@@ -7,6 +7,8 @@ Please do not mind the CSS... 👍😁
 
 <script src="RPS.js"></script>
 
+<img src="RPS.gif" id="Rock"/>
+
 <div class="Test">Can you beat the computer?</div>
 
 <div>Click on your choice</div>
