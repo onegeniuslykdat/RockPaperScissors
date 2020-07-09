@@ -44,5 +44,6 @@ function Winner(event){
             ;
             break;
     }
-    alert(result);
+    //alert(result);
+    document.querySelector('#Result').innerText = result;
 }
