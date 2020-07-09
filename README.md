@@ -24,9 +24,9 @@ Please do not mind the CSS... 👍😁
 </select>
 <button onclick="Winner()">Play</button>-->
 
-<h4> Computer Played: <b id="ComputerChoice"> </b> </h4>
+<h2> Computer Played: <b id="ComputerChoice"> </b> </h2>
 
-<b id="Result"></b>
+<h3 id="Result"></h3>
 
 
 
