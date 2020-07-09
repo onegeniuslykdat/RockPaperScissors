@@ -28,7 +28,7 @@ Please do not mind the CSS... 👍😁
 
 <h2> Computer Played: <b id="ComputerChoice"> </b> </h2>
 
-<h3 id="Result"></h3>
+<h3 id="Result" style="color:red"></h3>
 
 
 
