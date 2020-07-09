@@ -10,38 +10,39 @@ function Winner(event){
      let c = computerPlay();
      //let c2 = document.querySelector('button#'+c);
      document.querySelector("#ComputerChoice").innerText = c;
-
+     let result = '';
     switch(p)
     {
         case "Rock":
                 if(c == "Rock"){
-            alert("Draw");
+            result = "Draw";
                 }
                 else if (c == "Scissors"){
-             alert("You win")
+             result = "You win";
                 }
-                else {alert("You lose")}
+                else {result = "You lose";}
             break;
         case "Scissors":
                 if(c == "Scissors"){
-            alert("Draw");
+            result = "Draw";
                 }
                 else if (c == "Paper"){
-             alert("You win")
+             result = "You win";
                 }
-                else {alert("You lose")}
+                else {result = "You lose";}
             break;
         case "Paper":
                 if(c == "Paper"){
-            alert("Draw");
+            result = "Draw";
                 }
                 else if (c == "Rock"){
-             alert("You win")
+             result = "You win";
                 }
-                else {alert("You lose")}
+                else {result = "You lose";}
             break;
         default:
-            alert();
+            ;
             break;
     }
+    alert(result);
 }
